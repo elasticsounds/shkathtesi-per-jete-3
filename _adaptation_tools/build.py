@@ -113,6 +113,15 @@ toc_new += [
 toc = toc_new
 dump('content/toc.json', toc)
 
+# ---- sign language: one clip per page, reusing the clips in content/i18n/sq/video/ in rotation ----
+VID = I18N + 'video/'
+clips = sorted(f for f in os.listdir(VID) if f.endswith('.mp4')) if os.path.isdir(VID) else []
+if clips:
+    dump(I18N + 'videos.json', {e['section_id']: clips[k % len(clips)] for k, e in enumerate(pages)})
+    cfg = json.load(open('assets/config.json'))
+    cfg['features']['signLanguage'] = True
+    dump('assets/config.json', cfg)
+
 # ---- interface translations (screen-reader announcements) ----
 ITP = 'assets/interface_translations/sq/interface_translations.json'
 it = json.load(open(ITP))
@@ -121,7 +130,7 @@ dump(ITP, it)
 
 # ---- SCORM manifest: list new files ----
 man = open('imsmanifest.xml').read()
-want = [e['href'] for e in pages] + ['content/book.css'] + sorted('images/' + f for f in os.listdir('images'))
+want = [e['href'] for e in pages] + ['content/book.css'] + sorted('images/' + f for f in os.listdir('images')) + [VID + f for f in clips]
 add = [f for f in want if f'href="{f}"' not in man]
 if add:
     man = man.replace('</resource>', ''.join(f'<file href="{f}"/>' for f in add) + '</resource>', 1)
