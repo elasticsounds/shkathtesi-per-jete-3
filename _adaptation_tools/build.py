@@ -16,6 +16,7 @@ for k, v in NEW.items():
     speech[k] = v
 for k, v in EDIT.items():
     texts[k] = v
+    speech[k] = v
 dump(I18N + 'texts.json', texts)
 dump(I18N + 'speech_texts.json', speech)
 
