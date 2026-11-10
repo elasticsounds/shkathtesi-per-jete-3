@@ -47,7 +47,9 @@ def figure(i, caption_id=None, src=None):
     return f'<figure class="bk-figure">{img(i, src)}{cap}</figure>'
 
 def crumb(*ids):
-    return '<p class="bk-crumb">' + ''.join(s(i) for i in ids) + '</p>'
+    # No data-id on purpose: read-aloud plays every element in the page that has one,
+    # and the theme/lesson line would otherwise be spoken again on every page.
+    return '<p class="bk-crumb">' + ''.join(f'<span>{esc(tx(i))}</span>' for i in ids) + '</p>'
 
 def rubric(kind, i):
     return f'<h1 class="bk-rubric bk-rubric--{kind}" data-id="{i}">{esc(tx(i))}</h1>'
