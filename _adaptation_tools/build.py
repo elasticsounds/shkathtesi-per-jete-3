@@ -129,13 +129,37 @@ it = json.load(open(ITP))
 it.update(json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'sq_ui.json'))))
 dump(ITP, it)
 
-# ---- SCORM manifest: list new files ----
+# ---- SCORM adapter + manifest ----
+HERE = os.path.dirname(os.path.abspath(__file__))
+act_pos = [pos for pos, e in enumerate(pages, 1) if PAGES[e['section_id']]['family'].startswith('activity')]
+it_now = json.load(open(ITP))
+scorm = open(os.path.join(HERE, 'scorm_template.js')).read()
+for k, v in (('__TOTAL__', len(pages)), ('__ACTIVITIES__', act_pos), ('__NEXT__', it_now.get('next', 'Next')), ('__FIRST__', pages[0]['section_id'])):
+    scorm = scorm.replace(k, json.dumps(v, ensure_ascii=False))
+open('assets/scorm.js', 'w').write(scorm)
+
+def package_files():
+    """Everything the reader needs, relative to the bundle root (used for the manifest and the SCORM zip)."""
+    used_audio = None
+    mf = os.path.expanduser('~/.cache/adt-tts/' + os.path.basename(os.getcwd()) + '/manifest-sq.json')
+    if os.path.exists(mf):
+        used_audio = {k + '.mp3' for k in json.load(open(mf))}
+    out = ['index.html', 'cover.png'] + [e['href'] for e in pages]
+    for top in ('assets', 'content', 'images'):
+        for d, _, fs in os.walk(top):
+            for f in sorted(fs):
+                if f.startswith('.') or f.endswith('.map'): continue
+                if used_audio is not None and d.endswith(os.sep + 'audio') and f not in used_audio: continue  # old clips no page uses
+                out.append(os.path.join(d, f).replace(os.sep, '/'))
+    return out
+
+files = package_files()
 man = open('imsmanifest.xml').read()
-want = [e['href'] for e in pages] + ['content/book.css'] + sorted('images/' + f for f in os.listdir('images')) + [VID + f for f in clips]
-add = [f for f in want if f'href="{f}"' not in man]
-if add:
-    man = man.replace('</resource>', ''.join(f'<file href="{f}"/>' for f in add) + '</resource>', 1)
-    open('imsmanifest.xml', 'w').write(man)
+a0 = man.index('<resource '); a1 = man.index('>', a0) + 1; b0 = man.index('</resource>')
+from xml.sax.saxutils import quoteattr
+man = man[:a1] + '\n' + ''.join(f'      <file href={quoteattr(f)}/>\n' for f in files) + '    ' + man[b0:]
+open('imsmanifest.xml', 'w').write(man)
+add = files
 
 # ---- offline preloader: re-embed JSON and pages ----
 PL = 'assets/offline-preloader.js'
