@@ -1,0 +1,5 @@
+.DS_Store
+.claude/
+_backup_before_adaptation.zip
+*.pdf
+__pycache__/

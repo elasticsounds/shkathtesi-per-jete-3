@@ -1,0 +1,18 @@
+/* Tailwind source for the scoped Shkathtësi për jetë 3 component layer. */
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .spj-book { @apply min-h-screen bg-[#f6fafc] text-[#172033] antialiased; }
+  .spj-book .spj-page { @apply mx-auto w-full; }
+  .spj-book .spj-section { @apply min-w-0; }
+  .spj-book .spj-activity { @apply rounded-[2rem] bg-[#fffaf0]; }
+  .spj-book .spj-quiz { @apply mx-auto w-full max-w-4xl; }
+  .spj-book :is(input, textarea, select, button, [tabindex]):focus-visible {
+    @apply outline-none ring-4 ring-blue-700 ring-offset-2;
+  }
+  .spj-book #nav-container[data-book-runtime="activities"] { pointer-events: none; }
+  .spj-book #nav-container[data-book-runtime="activities"] :is(button, a, input, select, textarea, [role="button"]) { pointer-events: auto; }
+}
+
+/* The exact compiled rules are checked into book-theme.css for offline use. */

@@ -1,0 +1,1471 @@
+{
+  "abuzim": {
+    "word": "abuzim",
+    "definition": "Përdorim i keq ose sjellje e padrejtë që dëmton një person.",
+    "variations": [
+      "abuzime",
+      "abuzoj"
+    ],
+    "emoji": "🚫😟",
+    "id": "gl001"
+  },
+  "aftësi": {
+    "word": "aftësi",
+    "definition": "Zotësi ose mundësi që ka një njeri për të bërë diçka.",
+    "variations": [
+      "aftësi",
+      "aftësia",
+      "aftësitë"
+    ],
+    "emoji": "⭐💪",
+    "id": "gl002"
+  },
+  "aktivitet": {
+    "word": "aktivitet",
+    "definition": "Punë ose veprim që bëhet për mësim, argëtim ose pjesëmarrje me të tjerët.",
+    "variations": [
+      "aktivitete",
+      "aktivitetet"
+    ],
+    "emoji": "🎯🤸",
+    "id": "gl003"
+  },
+  "ambalazh": {
+    "word": "ambalazh",
+    "definition": "Mbështjellësi ose kutia që mban dhe mbron një produkt.",
+    "variations": [
+      "ambalazh",
+      "ambalazhi",
+      "ambalazhe"
+    ],
+    "emoji": "📦🛍️",
+    "id": "gl004"
+  },
+  "ankth": {
+    "word": "ankth",
+    "definition": "Ankthi është ndjenjë frike ose shqetësimi të fortë.",
+    "variations": [
+      "ankth",
+      "ankthi"
+    ],
+    "emoji": "😟💭",
+    "id": "gl005"
+  },
+  "astronaut": {
+    "word": "astronaut",
+    "definition": "Njeri që udhëton dhe punon në hapësirë.",
+    "variations": [
+      "astronaut",
+      "astronauti",
+      "astronautë"
+    ],
+    "emoji": "🚀🌕",
+    "id": "gl006"
+  },
+  "bashkëngjit": {
+    "word": "bashkëngjit",
+    "definition": "Shton diçka së bashku me një tjetër, për shembull një figurë ose foto me një punim.",
+    "variations": [
+      "bashkëngjitje",
+      "bashkëngjitur",
+      "bashkëngjitësh"
+    ],
+    "emoji": "📎🖼️",
+    "id": "gl007"
+  },
+  "brumë": {
+    "word": "brumë",
+    "definition": "Masë e butë që formohet kur grimcat përzihen me ujë.",
+    "variations": [
+      "brumë",
+      "brumi",
+      "brumit"
+    ],
+    "emoji": "💧🌀",
+    "id": "gl008"
+  },
+  "bujk": {
+    "word": "bujk",
+    "definition": "Njeri që punon tokën ose merret me punë të fshatit dhe kafshëve.",
+    "variations": [
+      "bujk",
+      "bujku",
+      "bujqit"
+    ],
+    "emoji": "🚜🌾",
+    "id": "gl009"
+  },
+  "butësi": {
+    "word": "butësi",
+    "definition": "Cilësia e diçkaje që është e butë në prekje.",
+    "variations": [
+      "butësi",
+      "butësia"
+    ],
+    "emoji": "🪶🤲",
+    "id": "gl010"
+  },
+  "buxhet": {
+    "word": "buxhet",
+    "definition": "Plan për të ardhurat dhe shpenzimet e parave.",
+    "variations": [
+      "buxhet",
+      "buxheti",
+      "buxhetit"
+    ],
+    "emoji": "💰📊",
+    "id": "gl011"
+  },
+  "deponim": {
+    "word": "deponim",
+    "definition": "Deponimi është vendosja dhe grumbullimi i mbeturinave në një vend të caktuar.",
+    "variations": [
+      "deponim",
+      "deponimi"
+    ],
+    "emoji": "🚮🗑️",
+    "id": "gl012"
+  },
+  "detergjent": {
+    "word": "detergjent",
+    "definition": "Lëndë që përdoret për pastrim.",
+    "variations": [
+      "detergjentet",
+      "detergjentë"
+    ],
+    "emoji": "🧴🫧",
+    "id": "gl013"
+  },
+  "dhunë": {
+    "word": "dhunë",
+    "definition": "Sjellje që lëndon dikë me forcë, me fjalë të këqija ose me veprime të rënda.",
+    "variations": [
+      "dhuna",
+      "i dhunshëm"
+    ],
+    "emoji": "🛑💢",
+    "id": "gl014"
+  },
+  "Dita e Tokës": {
+    "word": "Dita e Tokës",
+    "definition": "Një ditë e veçantë, më 22 Prill, kur njerëzit kujtojnë të mbrojnë Tokën dhe mjedisin.",
+    "variations": [
+      "Ditës së Tokës",
+      "Ditën e Tokës"
+    ],
+    "emoji": "🌍🎉",
+    "id": "gl015"
+  },
+  "druri": {
+    "word": "druri",
+    "definition": "Material që merret nga pemët dhe përdoret për të bërë shumë sende, edhe letër.",
+    "variations": [
+      "dru",
+      "druri",
+      "drutë",
+      "drurve"
+    ],
+    "emoji": "🌳🪵",
+    "id": "gl016"
+  },
+  "ekran": {
+    "word": "ekran",
+    "definition": "Pjesa e telefonit, televizorit, tabletit ose kompjuterit ku shohim figura dhe tekste.",
+    "variations": [
+      "ekrane",
+      "ekranet",
+      "ekranin"
+    ],
+    "emoji": "📺💻",
+    "id": "gl017"
+  },
+  "ekspozim": {
+    "word": "ekspozim",
+    "definition": "Vendosje ose paraqitje e punimeve që të shihen nga të tjerët.",
+    "variations": [
+      "ekspozoj",
+      "ekspozohen"
+    ],
+    "emoji": "🖼️📌",
+    "id": "gl018"
+  },
+  "end": {
+    "word": "end",
+    "definition": "Punoj fijet duke i lidhur për të bërë pëlhurë.",
+    "variations": [
+      "end",
+      "endet",
+      "endje"
+    ],
+    "emoji": "🧵🪢",
+    "id": "gl019"
+  },
+  "energji elektrike": {
+    "word": "energji elektrike",
+    "definition": "Energjia që përdorim për drita dhe pajisje elektrike.",
+    "variations": [
+      "elektrike",
+      "energjinë elektrike"
+    ],
+    "emoji": "⚡💡",
+    "id": "gl020"
+  },
+  "ese": {
+    "word": "ese",
+    "definition": "Shkrim i shkurtër ku jepen mendime ose përshkruhet një temë.",
+    "variations": [
+      "eseja",
+      "ese të ndryshme"
+    ],
+    "emoji": "📝📖",
+    "id": "gl021"
+  },
+  "fabrikë": {
+    "word": "fabrikë",
+    "definition": "Fabrika është vendi ku prodhohen gjëra të ndryshme me makina dhe punëtorë.",
+    "variations": [
+      "fabrikë",
+      "fabrika",
+      "fabrikat"
+    ],
+    "emoji": "🏭⚙️",
+    "id": "gl022"
+  },
+  "familje": {
+    "word": "familje",
+    "definition": "Njerëzit që jetojnë së bashku dhe kujdesen për njëri-tjetrin.",
+    "variations": [
+      "familjar",
+      "familjare",
+      "familjen",
+      "familjes"
+    ],
+    "emoji": "👨‍👩‍👧‍👦🏡",
+    "id": "gl023"
+  },
+  "festë": {
+    "word": "festë",
+    "definition": "Një ditë ose rast i veçantë kur njerëzit mblidhen për të gëzuar dhe kremtuar.",
+    "variations": [
+      "festa",
+      "festoj",
+      "feston"
+    ],
+    "emoji": "🎉🥳",
+    "id": "gl024"
+  },
+  "fije peri": {
+    "word": "fije peri",
+    "definition": "Fije e hollë që përdoret për të qepur, thurur ose endur.",
+    "variations": [
+      "fije peri",
+      "fije",
+      "peri"
+    ],
+    "emoji": "🧵🪡",
+    "id": "gl025"
+  },
+  "fletushkë": {
+    "word": "fletushkë",
+    "definition": "Fletë ose material i shkurtër me informata, figura dhe shkrime për një temë.",
+    "variations": [
+      "fletushka",
+      "fletushkës",
+      "fletushkat"
+    ],
+    "emoji": "📘📰",
+    "id": "gl026"
+  },
+  "garë": {
+    "word": "garë",
+    "definition": "Veprimtari ku njerëzit ose grupet përpiqen të fitojnë duke treguar aftësi.",
+    "variations": [
+      "gara",
+      "garoj",
+      "garojnë"
+    ],
+    "emoji": "🏁🏆",
+    "id": "gl027"
+  },
+  "gazra": {
+    "word": "gazra",
+    "definition": "Gazrat janë lëndë që dalin në ajër, shpesh nga makinat ose fabrikat, dhe mund të jenë të dëmshme.",
+    "variations": [
+      "gazra",
+      "gazrat"
+    ],
+    "emoji": "🏭🚗🌫️",
+    "id": "gl028"
+  },
+  "gërmim": {
+    "word": "gërmim",
+    "definition": "Gërmimi është hapja e tokës për të bërë gropa ose për të ndërtuar diçka.",
+    "variations": [
+      "gërmim",
+      "gërmime",
+      "gërmimi",
+      "gërmimet"
+    ],
+    "emoji": "🕳️🚜",
+    "id": "gl029"
+  },
+  "grimcë": {
+    "word": "grimcë",
+    "definition": "Copë shumë e vogël e një materiali.",
+    "variations": [
+      "grimcë",
+      "grimca",
+      "grimcat"
+    ],
+    "emoji": "🔹🪵",
+    "id": "gl030"
+  },
+  "grumbullim": {
+    "word": "grumbullim",
+    "definition": "Mbledhja e gjërave në një vend.",
+    "variations": [
+      "grumbullimi",
+      "grumbulloj",
+      "grumbullohen"
+    ],
+    "emoji": "📦🧺",
+    "id": "gl031"
+  },
+  "humanitar": {
+    "word": "humanitar",
+    "definition": "Që bëhet për të ndihmuar njerëzit e tjerë.",
+    "variations": [
+      "humanitar",
+      "humanitare",
+      "humanitareve"
+    ],
+    "emoji": "🤝❤️",
+    "id": "gl032"
+  },
+  "ilustrim": {
+    "word": "ilustrim",
+    "definition": "Vizatim ose figurë që shpjegon ose zbukuron një tekst.",
+    "variations": [
+      "ilustrime",
+      "ilustrimë"
+    ],
+    "emoji": "🎨🖍️",
+    "id": "gl033"
+  },
+  "informacion": {
+    "word": "informacion",
+    "definition": "Të dhëna ose njohuri që marrim për diçka.",
+    "variations": [
+      "informacione",
+      "informacione",
+      "informacionit"
+    ],
+    "emoji": "ℹ️📘",
+    "id": "gl034"
+  },
+  "institucion": {
+    "word": "institucion",
+    "definition": "Vend ku njerëzit punojnë dhe kryejnë shërbime të caktuara.",
+    "variations": [
+      "institucion",
+      "institucione",
+      "institucioni"
+    ],
+    "emoji": "🏢📍",
+    "id": "gl035"
+  },
+  "internet": {
+    "word": "internet",
+    "definition": "Rrjet i madh që lidh kompjuterë dhe pajisje të ndryshme për të gjetur dhe shkëmbyer informacion.",
+    "variations": [
+      "interneti",
+      "internetin",
+      "internetit"
+    ],
+    "emoji": "🌐📶",
+    "id": "gl036"
+  },
+  "karrierë": {
+    "word": "karrierë",
+    "definition": "Rruga e punës dhe e profesioneve që një njeri ndjek gjatë jetës së tij.",
+    "variations": [
+      "karrierë",
+      "karriera",
+      "karrierën"
+    ],
+    "emoji": "📈💼",
+    "id": "gl037"
+  },
+  "karton": {
+    "word": "karton",
+    "definition": "Material i ngjashëm me letrën, por më i trashë dhe më i fortë.",
+    "variations": [
+      "karton",
+      "kartoni",
+      "kartone",
+      "kartonit"
+    ],
+    "emoji": "📦📄",
+    "id": "gl038"
+  },
+  "kaskë mbrojtëse": {
+    "word": "kaskë mbrojtëse",
+    "definition": "Kaska mbrojtëse është një mbulesë e fortë për kokën që mbron nga goditjet dhe rënia e sendeve.",
+    "variations": [
+      "kaskë mbrojtëse",
+      "kaska mbrojtëse",
+      "kaskë",
+      "kaska"
+    ],
+    "emoji": "⛑️🦺",
+    "id": "gl039"
+  },
+  "klasifikim": {
+    "word": "klasifikim",
+    "definition": "Ndarja e gjërave sipas llojit ose grupit të tyre.",
+    "variations": [
+      "klasifikimi",
+      "klasifikojnë",
+      "klasifikuar"
+    ],
+    "emoji": "🗂️📚",
+    "id": "gl040"
+  },
+  "kompjuter": {
+    "word": "kompjuter",
+    "definition": "Pajisje elektronike që përdoret për të mësuar, shkruar, kërkuar të dhëna dhe bërë punë të ndryshme.",
+    "variations": [
+      "kompjuteri",
+      "kompjuterin",
+      "kompjuterë"
+    ],
+    "emoji": "💻⌨️",
+    "id": "gl041"
+  },
+  "konferencë": {
+    "word": "konferencë",
+    "definition": "Takim i organizuar ku flitet për një temë të rëndësishme.",
+    "variations": [
+      "konferenca",
+      "konferenca botërore"
+    ],
+    "emoji": "🏛️🗣️",
+    "id": "gl042"
+  },
+  "kontribuoj": {
+    "word": "kontribuoj",
+    "definition": "Jap ndihmë ose bëj diçka të dobishme për të tjerët.",
+    "variations": [
+      "kontribut",
+      "kontribuon",
+      "kontribuoni",
+      "kontribuar"
+    ],
+    "emoji": "🤝❤️",
+    "id": "gl043"
+  },
+  "kosh": {
+    "word": "kosh",
+    "definition": "Enë ku hidhen mbeturinat për të mbajtur pastër vendin.",
+    "variations": [
+      "kosha",
+      "koshat",
+      "koshin"
+    ],
+    "emoji": "🗑️♻️",
+    "id": "gl044"
+  },
+  "kultivim": {
+    "word": "kultivim",
+    "definition": "Rritja dhe kujdesi për bimët që të japin prodhim.",
+    "variations": [
+      "kultivim",
+      "kultivoj",
+      "kultivohet"
+    ],
+    "emoji": "🌱🌾",
+    "id": "gl045"
+  },
+  "kureshtje": {
+    "word": "kureshtje",
+    "definition": "Dëshirë për të ditur ose mësuar diçka më shumë.",
+    "variations": [
+      "kureshtar",
+      "kureshtare"
+    ],
+    "emoji": "🤔✨",
+    "id": "gl046"
+  },
+  "kursim": {
+    "word": "kursim",
+    "definition": "Paratë që nuk i shpenzojmë menjëherë, por i ruajmë për më vonë.",
+    "variations": [
+      "kursime",
+      "kursimet",
+      "kursej",
+      "kurseni"
+    ],
+    "emoji": "🐷💰",
+    "id": "gl047"
+  },
+  "kursime": {
+    "word": "kursime",
+    "definition": "Paratë që ruhen dhe nuk shpenzohen menjëherë.",
+    "variations": [
+      "kursime",
+      "kursimet",
+      "kursejmë"
+    ],
+    "emoji": "🐷💶",
+    "id": "gl048"
+  },
+  "lëndë e parë": {
+    "word": "lëndë e parë",
+    "definition": "Material bazë prej të cilit bëhen gjëra të tjera.",
+    "variations": [
+      "lëndë e parë",
+      "lëndë të para"
+    ],
+    "emoji": "🪵🏭",
+    "id": "gl049"
+  },
+  "lëndë kimike": {
+    "word": "lëndë kimike",
+    "definition": "Lëndë ose përzierje që mund të përdoret për pastrim apo gjëra të tjera, por që mund të jetë e rrezikshme.",
+    "variations": [
+      "kimikate",
+      "lëndë kimike të rrezikshme",
+      "kimik"
+    ],
+    "emoji": "🧪☠️",
+    "id": "gl050"
+  },
+  "lesh": {
+    "word": "lesh",
+    "definition": "Fije e butë që merret nga delet dhe përdoret për rroba e sende të tjera.",
+    "variations": [
+      "lesh",
+      "leshi"
+    ],
+    "emoji": "🐑🧶",
+    "id": "gl051"
+  },
+  "letër": {
+    "word": "letër",
+    "definition": "Material i hollë që përdoret për të shkruar, vizatuar ose mbështjellë gjëra.",
+    "variations": [
+      "letër",
+      "letra",
+      "letrës",
+      "letra të ndryshme"
+    ],
+    "emoji": "📄✏️",
+    "id": "gl052"
+  },
+  "lëvore": {
+    "word": "lëvore",
+    "definition": "Shtresa e jashtme që mbulon drurin ose trungun e pemës.",
+    "variations": [
+      "lëvore",
+      "lëvorja"
+    ],
+    "emoji": "🌳🪵",
+    "id": "gl053"
+  },
+  "makineri": {
+    "word": "makineri",
+    "definition": "Makineritë janë pajisje të mëdha ose të fuqishme që ndihmojnë në kryerjen e punëve.",
+    "variations": [
+      "makineri",
+      "makineria",
+      "makineritë"
+    ],
+    "emoji": "⚙️🏭",
+    "id": "gl054"
+  },
+  "material": {
+    "word": "material",
+    "definition": "Lënda nga e cila bëhen sende të ndryshme, si druri, metali, plastika ose qelqi.",
+    "variations": [
+      "material",
+      "materiale",
+      "materialet"
+    ],
+    "emoji": "🧱🛠️",
+    "id": "gl055"
+  },
+  "material natyror": {
+    "word": "material natyror",
+    "definition": "Material që gjendet në natyrë dhe merret nga bimët, kafshët ose toka.",
+    "variations": [
+      "material natyror",
+      "materiale natyrore"
+    ],
+    "emoji": "🌿🐑",
+    "id": "gl056"
+  },
+  "material sintetik": {
+    "word": "material sintetik",
+    "definition": "Material i bërë nga njeriu, jo drejtpërdrejt nga natyra.",
+    "variations": [
+      "material sintetik",
+      "materiale sintetike"
+    ],
+    "emoji": "🏭🧵",
+    "id": "gl057"
+  },
+  "mbetje": {
+    "word": "mbetje",
+    "definition": "Gjërat që mbeten dhe nuk duhen më, pra plehrat ose mbeturinat.",
+    "variations": [
+      "mbetjet"
+    ],
+    "emoji": "🗑️♻️",
+    "id": "gl058"
+  },
+  "mbeturina": {
+    "word": "mbeturina",
+    "definition": "Gjëra që nuk na duhen më dhe i hedhim poshtë.",
+    "variations": [
+      "mbeturinat",
+      "mbeturinave"
+    ],
+    "emoji": "🗑️🚮",
+    "id": "gl059"
+  },
+  "mbikëqyrje": {
+    "word": "mbikëqyrje",
+    "definition": "Kujdesi dhe vëzhgimi i një të rrituri për të parë nëse gjithçka bëhet si duhet dhe në siguri.",
+    "variations": [
+      "mbikëqyrjen",
+      "mbikëqyrjes"
+    ],
+    "emoji": "👀🛡️",
+    "id": "gl060"
+  },
+  "mbrohem": {
+    "word": "mbrohem",
+    "definition": "Ruaj veten nga dëmi ose rreziku.",
+    "variations": [
+      "mbroj",
+      "mbrojtje",
+      "mbroheni"
+    ],
+    "emoji": "🛡️🙌",
+    "id": "gl061"
+  },
+  "mbrojtëse për dëgjimin": {
+    "word": "mbrojtëse për dëgjimin",
+    "definition": "Mbrojtëset për dëgjimin janë pajisje që vendosen në vesh për t’i mbrojtur nga zhurma e fortë.",
+    "variations": [
+      "mbrojtëse për dëgjimin",
+      "mbrojtëset për dëgjimin",
+      "mbrojtëse në vesh"
+    ],
+    "emoji": "🎧👂🦺",
+    "id": "gl062"
+  },
+  "medie": {
+    "word": "medie",
+    "definition": "Mjetet që na japin informacion dhe argëtim, si TV, telefoni, interneti dhe gazetat.",
+    "variations": [
+      "mediet",
+      "medieve"
+    ],
+    "emoji": "📺📱📰",
+    "id": "gl063"
+  },
+  "menaxher": {
+    "word": "menaxher",
+    "definition": "Person që drejton dhe kontrollon punën e të tjerëve.",
+    "variations": [
+      "menaxher",
+      "menaxheri"
+    ],
+    "emoji": "📋👔",
+    "id": "gl064"
+  },
+  "metal": {
+    "word": "metal",
+    "definition": "Material i fortë që përdoret për të bërë lugë, vegla dhe sende të tjera.",
+    "variations": [
+      "metal",
+      "metali",
+      "metale"
+    ],
+    "emoji": "🔩🥄",
+    "id": "gl065"
+  },
+  "mirëqenie": {
+    "word": "mirëqenie",
+    "definition": "Gjendje e mirë dhe e qetë, kur njerëzit kanë atë që u duhet për të jetuar mirë.",
+    "variations": [
+      "mirëqenien"
+    ],
+    "emoji": "😊🏠",
+    "id": "gl066"
+  },
+  "mjedis": {
+    "word": "mjedis",
+    "definition": "Gjithçka që na rrethon, si ajri, uji, toka, bimët, kafshët dhe vendet ku jetojmë.",
+    "variations": [
+      "mjedisi",
+      "mjedisin",
+      "mjedisit",
+      "mjedise"
+    ],
+    "emoji": "🌍🌿",
+    "id": "gl067"
+  },
+  "mjet pune": {
+    "word": "mjet pune",
+    "definition": "Send ose pajisje që përdoret për të kryer një punë.",
+    "variations": [
+      "mjet pune",
+      "mjete pune",
+      "mjetin e punës"
+    ],
+    "emoji": "🛠️🔧",
+    "id": "gl068"
+  },
+  "modeloj": {
+    "word": "modeloj",
+    "definition": "Krijoj ose formoj një send duke përdorur materiale të ndryshme.",
+    "variations": [
+      "modeloj",
+      "modelon",
+      "modeluar"
+    ],
+    "emoji": "✂️🎨",
+    "id": "gl069"
+  },
+  "monedhë": {
+    "word": "monedhë",
+    "definition": "Copë e vogël metali që përdoret si para.",
+    "variations": [
+      "monedha",
+      "monedhat"
+    ],
+    "emoji": "🪙💰",
+    "id": "gl070"
+  },
+  "moshatar": {
+    "word": "moshatar",
+    "definition": "Fëmijë ose person që ka afërsisht të njëjtën moshë me një tjetër.",
+    "variations": [
+      "moshatarë",
+      "moshatare",
+      "moshatarët"
+    ],
+    "emoji": "👧👦",
+    "id": "gl071"
+  },
+  "natyrë": {
+    "word": "natyrë",
+    "definition": "Bota e gjallë dhe jo e gjallë rreth nesh, si pyjet, malet, lumenjtë, bimët dhe kafshët.",
+    "variations": [
+      "natyra",
+      "natyrës",
+      "në natyrë"
+    ],
+    "emoji": "🌳🌸🏞️",
+    "id": "gl072"
+  },
+  "ndotja e ajrit": {
+    "word": "ndotja e ajrit",
+    "definition": "Ndotja e ajrit ndodh kur ajri bëhet i papastër nga tymi, gazrat dhe pluhuri.",
+    "variations": [
+      "ndotja e ajrit",
+      "ndotje e ajrit",
+      "ajër i ndotur"
+    ],
+    "emoji": "🌫️🏭🚗",
+    "id": "gl073"
+  },
+  "ndotja e tokës": {
+    "word": "ndotja e tokës",
+    "definition": "Ndotja e tokës ndodh kur toka mbushet me mbeturina ose lëndë të dëmshme.",
+    "variations": [
+      "ndotja e tokës",
+      "ndotje e tokës",
+      "tokë e ndotur"
+    ],
+    "emoji": "🌱🗑️⚠️",
+    "id": "gl074"
+  },
+  "ndotja e ujit": {
+    "word": "ndotja e ujit",
+    "definition": "Ndotja e ujit ndodh kur uji bëhet i papastër nga mbeturinat ose lëndët e dëmshme.",
+    "variations": [
+      "ndotja e ujit",
+      "ndotje e ujit",
+      "ujë i ndotur"
+    ],
+    "emoji": "💧🗑️⚠️",
+    "id": "gl075"
+  },
+  "ndotje": {
+    "word": "ndotje",
+    "definition": "Prishja e ajrit, ujit ose tokës nga mbeturinat, tymi ose gjëra të dëmshme.",
+    "variations": [
+      "ndotja",
+      "ndotjes",
+      "ndotjen",
+      "ndotjet"
+    ],
+    "emoji": "🚯🌫️",
+    "id": "gl076"
+  },
+  "ngjyros": {
+    "word": "ngjyros",
+    "definition": "I jap një ngjyrë një materiali ose sendi.",
+    "variations": [
+      "ngjyros",
+      "ngjyroset",
+      "ngjyrosje"
+    ],
+    "emoji": "🎨🌈",
+    "id": "gl077"
+  },
+  "njeri i huaj": {
+    "word": "njeri i huaj",
+    "definition": "Njeri i huaj është një person që nuk e njohim.",
+    "variations": [
+      "njeri i huaj",
+      "i huaj",
+      "njerëz të huaj"
+    ],
+    "emoji": "🧍❓",
+    "id": "gl078"
+  },
+  "orendi": {
+    "word": "orendi",
+    "definition": "Send që përdoret në shtëpi ose klasë, si karrigia apo tryeza.",
+    "variations": [
+      "orendi",
+      "orenditë"
+    ],
+    "emoji": "🪑🏠",
+    "id": "gl079"
+  },
+  "organizim": {
+    "word": "organizim",
+    "definition": "Vendosja e punëve në rregull që të bëhen si duhet.",
+    "variations": [
+      "organizim",
+      "organizimi",
+      "organizojnë",
+      "organizosh"
+    ],
+    "emoji": "🗂️📋",
+    "id": "gl080"
+  },
+  "origjinë": {
+    "word": "origjinë",
+    "definition": "Vendi ose fillimi prej nga vjen diçka.",
+    "variations": [
+      "origjina"
+    ],
+    "emoji": "🌍📍",
+    "id": "gl081"
+  },
+  "pajisje elektrike": {
+    "word": "pajisje elektrike",
+    "definition": "Mjete ose sende që punojnë me rrymë elektrike.",
+    "variations": [
+      "pajisjet elektrike",
+      "pajisje"
+    ],
+    "emoji": "🔌📺",
+    "id": "gl082"
+  },
+  "pambuk": {
+    "word": "pambuk",
+    "definition": "Material i butë që merret nga bima e pambukut dhe përdoret për të bërë pëlhura e rroba.",
+    "variations": [
+      "pambuk",
+      "pambuku"
+    ],
+    "emoji": "☁️🌱",
+    "id": "gl083"
+  },
+  "përmbledhje": {
+    "word": "përmbledhje",
+    "definition": "Shkrim i shkurtër që tregon pikat kryesore të një pune ose teme.",
+    "variations": [
+      "përmbledh",
+      "përmblidhni"
+    ],
+    "emoji": "📚✍️",
+    "id": "gl084"
+  },
+  "përpunim": {
+    "word": "përpunim",
+    "definition": "Procesi i ndryshimit të një lënde të parë për ta kthyer në diçka të dobishme.",
+    "variations": [
+      "përpunim",
+      "përpunimi",
+      "përpunohen"
+    ],
+    "emoji": "🏭⚙️",
+    "id": "gl085"
+  },
+  "përqendrim": {
+    "word": "përqendrim",
+    "definition": "Përqendrimi është aftësia për ta mbajtur mendjen te një punë ose detyrë.",
+    "variations": [
+      "përqendrim",
+      "përqendrimi"
+    ],
+    "emoji": "🧠🎯",
+    "id": "gl086"
+  },
+  "përthyhet": {
+    "word": "përthyhet",
+    "definition": "Mund të paloset ose të lakohet pa u thyer menjëherë.",
+    "variations": [
+      "përthyhet",
+      "përthyj",
+      "përthyer"
+    ],
+    "emoji": "📄↩️",
+    "id": "gl087"
+  },
+  "piknik": {
+    "word": "piknik",
+    "definition": "Dalje për pushim dhe argëtim në natyrë, zakonisht me ushqime.",
+    "variations": [
+      "pikniku",
+      "piknikut",
+      "piknike"
+    ],
+    "emoji": "🧺🌳",
+    "id": "gl088"
+  },
+  "pilot": {
+    "word": "pilot",
+    "definition": "Njeri që drejton aeroplanin.",
+    "variations": [
+      "pilot",
+      "piloti",
+      "pilotë"
+    ],
+    "emoji": "✈️🧑‍✈️",
+    "id": "gl089"
+  },
+  "planet": {
+    "word": "planet",
+    "definition": "Trup i madh qiellor që lëviz rreth një ylli. Toka është një planet.",
+    "variations": [
+      "planeti",
+      "planetin",
+      "planetët",
+      "planetëve"
+    ],
+    "emoji": "🪐🌍",
+    "id": "gl090"
+  },
+  "planifikim": {
+    "word": "planifikim",
+    "definition": "Mendimi dhe rregullimi i punëve më parë, sipas një plani.",
+    "variations": [
+      "planifikim",
+      "planifikimi",
+      "planifikojnë",
+      "planifikosh"
+    ],
+    "emoji": "📝📅",
+    "id": "gl091"
+  },
+  "plastikë": {
+    "word": "plastikë",
+    "definition": "Material i lehtë që përdoret për shumë sende të përditshme.",
+    "variations": [
+      "plastikë",
+      "plastika",
+      "plastike"
+    ],
+    "emoji": "🧴🛍️",
+    "id": "gl092"
+  },
+  "pluhur": {
+    "word": "pluhur",
+    "definition": "Pluhuri është grimca shumë të vogla që ndoten ajrin dhe mund të na pengojnë frymëmarrjen.",
+    "variations": [
+      "pluhur",
+      "pluhuri"
+    ],
+    "emoji": "🌫️😷",
+    "id": "gl093"
+  },
+  "porcelan": {
+    "word": "porcelan",
+    "definition": "Material i fortë dhe i lëmuar, që përdoret shpesh për pjata dhe filxhanë.",
+    "variations": [
+      "porcelan",
+      "porcelani"
+    ],
+    "emoji": "🍽️☕",
+    "id": "gl094"
+  },
+  "posta elektronike": {
+    "word": "posta elektronike",
+    "definition": "Mënyrë për të dërguar dhe marrë mesazhe në internet.",
+    "variations": [
+      "postë elektronike",
+      "e-mail",
+      "e-maili"
+    ],
+    "emoji": "📧✉️",
+    "id": "gl095"
+  },
+  "prezantim": {
+    "word": "prezantim",
+    "definition": "Të folur ose paraqitje e shkurtër për të treguar diçka para të tjerëve.",
+    "variations": [
+      "prezantime",
+      "prezantoj",
+      "prezantoje"
+    ],
+    "emoji": "🎤📄",
+    "id": "gl096"
+  },
+  "prizë": {
+    "word": "prizë",
+    "definition": "Vendi në mur ku futet spina për të marrë rrymë elektrike.",
+    "variations": [
+      "priza",
+      "prizat"
+    ],
+    "emoji": "🔌⚡",
+    "id": "gl097"
+  },
+  "prodhim": {
+    "word": "prodhim",
+    "definition": "Bërja e një sendi ose materiali nëpërmjet punës dhe mjeteve.",
+    "variations": [
+      "prodhim",
+      "prodhimi",
+      "prodhohet",
+      "prodhohen",
+      "prodhuar"
+    ],
+    "emoji": "🏗️📦",
+    "id": "gl098"
+  },
+  "profesion": {
+    "word": "profesion",
+    "definition": "Punë që një njeri e mëson dhe e bën rregullisht.",
+    "variations": [
+      "profesion",
+      "profesioni",
+      "profesione",
+      "profesionet"
+    ],
+    "emoji": "👩‍🏫👨‍⚕️",
+    "id": "gl099"
+  },
+  "projekt": {
+    "word": "projekt",
+    "definition": "Punë e organizuar që bëhet për një temë të caktuar.",
+    "variations": [
+      "projekti",
+      "projektin",
+      "projekte"
+    ],
+    "emoji": "📁📝",
+    "id": "gl100"
+  },
+  "punëtor": {
+    "word": "punëtor",
+    "definition": "Njeri që punon për të bërë ose përpunuar diçka.",
+    "variations": [
+      "punëtor",
+      "punëtorë",
+      "punëtorët"
+    ],
+    "emoji": "👷🛠️",
+    "id": "gl101"
+  },
+  "qelq": {
+    "word": "qelq",
+    "definition": "Material i tejdukshëm që përdoret për gota, dritare dhe sende të tjera.",
+    "variations": [
+      "qelq",
+      "qelqi"
+    ],
+    "emoji": "🥛🪟",
+    "id": "gl102"
+  },
+  "qethje": {
+    "word": "qethje",
+    "definition": "Prerja e leshit të deles për ta marrë dhe përdorur.",
+    "variations": [
+      "qethje",
+      "qeth",
+      "qethin",
+      "qethja"
+    ],
+    "emoji": "🐑✂️",
+    "id": "gl103"
+  },
+  "riciklim": {
+    "word": "riciklim",
+    "definition": "Përdorimi përsëri i materialeve të vjetra për të krijuar ose bërë diçka tjetër.",
+    "variations": [
+      "ricikloj",
+      "ricikloni",
+      "ricikluar"
+    ],
+    "emoji": "♻️📦",
+    "id": "gl104"
+  },
+  "riciklohet": {
+    "word": "riciklohet",
+    "definition": "Përdoret përsëri pas përpunimit, në vend që të hidhet.",
+    "variations": [
+      "riciklohet",
+      "ricikloj",
+      "riciklim",
+      "riciklohen"
+    ],
+    "emoji": "♻️🌍",
+    "id": "gl105"
+  },
+  "ripërdorim": {
+    "word": "ripërdorim",
+    "definition": "Përdorimi i një sendi përsëri, pa e hedhur.",
+    "variations": [
+      "ripërdor",
+      "ripërdorim",
+      "ripërdorimi"
+    ],
+    "emoji": "🔁♻️",
+    "id": "gl106"
+  },
+  "rrezik": {
+    "word": "rrezik",
+    "definition": "Diçka që mund të të dëmtojë ose të sjellë të keqe.",
+    "variations": [
+      "rreziqe",
+      "rreziqet",
+      "rrezikshme",
+      "rrezikshëm"
+    ],
+    "emoji": "⚠️🚫",
+    "id": "gl107"
+  },
+  "rrjete sociale": {
+    "word": "rrjete sociale",
+    "definition": "Faqe ose aplikacione në internet ku njerëzit komunikojnë dhe ndajnë postime.",
+    "variations": [
+      "rrjetet sociale",
+      "rrjeteve sociale",
+      "rrjet social"
+    ],
+    "emoji": "📱💬",
+    "id": "gl108"
+  },
+  "shenjë paralajmëruese": {
+    "word": "shenjë paralajmëruese",
+    "definition": "Shenjë që na tregon se duhet të kemi kujdes nga një rrezik.",
+    "variations": [
+      "shenja paralajmëruese",
+      "shenjë rreziku",
+      "shenjat e rrezikut"
+    ],
+    "emoji": "⚠️👀",
+    "id": "gl109"
+  },
+  "shenjë rreziku": {
+    "word": "shenjë rreziku",
+    "definition": "Shenja e rrezikut është një shenjë që paralajmëron për një rrezik të mundshëm.",
+    "variations": [
+      "shenjë rreziku",
+      "shenja rreziku",
+      "shenjat e rrezikut"
+    ],
+    "emoji": "⚠️🚫",
+    "id": "gl110"
+  },
+  "shenjë sigurie": {
+    "word": "shenjë sigurie",
+    "definition": "Shenja e sigurisë është një shenjë që na tregon si të ruhemi dhe si të sillemi në një vend të caktuar.",
+    "variations": [
+      "shenjë sigurie",
+      "shenja sigurie",
+      "shenjës së sigurisë"
+    ],
+    "emoji": "🦺✅🚧",
+    "id": "gl111"
+  },
+  "shkathtësi": {
+    "word": "shkathtësi",
+    "definition": "Aftësi për të bërë mirë një punë ose veprim.",
+    "variations": [
+      "shkathtësi",
+      "shkathtësia",
+      "shkathtësitë"
+    ],
+    "emoji": "🧠👏",
+    "id": "gl112"
+  },
+  "shpenzim": {
+    "word": "shpenzim",
+    "definition": "Paratë që përdorim për të blerë ose paguar diçka.",
+    "variations": [
+      "shpenzime",
+      "shpenzimet",
+      "shpenzoj",
+      "shpenzuar"
+    ],
+    "emoji": "🛒💸",
+    "id": "gl113"
+  },
+  "shpenzime": {
+    "word": "shpenzime",
+    "definition": "Paratë që përdoren për të blerë ose paguar gjëra.",
+    "variations": [
+      "shpenzime",
+      "shpenzimet"
+    ],
+    "emoji": "🛒💸",
+    "id": "gl114"
+  },
+  "shpërndahet": {
+    "word": "shpërndahet",
+    "definition": "U jepet shumë njerëzve në vende ose duar të ndryshme.",
+    "variations": [
+      "shpërndaj",
+      "shpërndarje",
+      "shpërndahet dorazi"
+    ],
+    "emoji": "📤👋",
+    "id": "gl115"
+  },
+  "siguri": {
+    "word": "siguri",
+    "definition": "Gjendja kur je i mbrojtur dhe larg rrezikut.",
+    "variations": [
+      "sigurisë",
+      "i sigurt",
+      "e sigurt"
+    ],
+    "emoji": "🛡️✅",
+    "id": "gl116"
+  },
+  "të ardhura": {
+    "word": "të ardhura",
+    "definition": "Paratë që merr një familje ose një njeri.",
+    "variations": [
+      "të ardhura",
+      "të ardhurat"
+    ],
+    "emoji": "💵🏠",
+    "id": "gl117"
+  },
+  "të dhëna personale": {
+    "word": "të dhëna personale",
+    "definition": "Informata për një person, si emri, mbiemri, datëlindja dhe shkolla.",
+    "variations": [
+      "e dhënë personale",
+      "të dhënat personale"
+    ],
+    "emoji": "🧑📝",
+    "id": "gl118"
+  },
+  "të drejta": {
+    "word": "të drejta",
+    "definition": "Gjëra që i takojnë çdo njeriu dhe që duhet t’i gëzojë e t’i mbrojë.",
+    "variations": [
+      "e drejtë",
+      "të drejtat e fëmijëve"
+    ],
+    "emoji": "⚖️🛡️",
+    "id": "gl119"
+  },
+  "teknologji": {
+    "word": "teknologji",
+    "definition": "Përdorimi i pajisjeve dhe mjeteve moderne, si kompjuteri, për të mësuar ose punuar.",
+    "variations": [
+      "teknologjisë",
+      "teknologjike"
+    ],
+    "emoji": "💻🔧",
+    "id": "gl120"
+  },
+  "tel i zhveshur": {
+    "word": "tel i zhveshur",
+    "definition": "Tel i zhveshur është një tel pa mbrojtje plastike, që mund të japë rrymë dhe të jetë shumë i rrezikshëm.",
+    "variations": [
+      "tel i zhveshur",
+      "tela të zhveshur",
+      "telat e zhveshur"
+    ],
+    "emoji": "⚠️🧵⚡",
+    "id": "gl121"
+  },
+  "telefon": {
+    "word": "telefon",
+    "definition": "Telefoni është pajisje që përdoret për të folur me të tjerët dhe për të dërguar mesazhe.",
+    "variations": [
+      "telefon",
+      "telefoni",
+      "telefonit",
+      "telefona"
+    ],
+    "emoji": "📱☎️",
+    "id": "gl122"
+  },
+  "thur": {
+    "word": "thur",
+    "definition": "Punoj me fije ose lesh për të bërë rroba, si triko.",
+    "variations": [
+      "thur",
+      "thurim",
+      "thurr",
+      "thurje"
+    ],
+    "emoji": "🧶👕",
+    "id": "gl123"
+  },
+  "tjerrje": {
+    "word": "tjerrje",
+    "definition": "Procesi i kthimit të leshit ose pambukut në fije.",
+    "variations": [
+      "tjerrje",
+      "tjerr",
+      "tirret",
+      "tjerrëse"
+    ],
+    "emoji": "🧶🔄",
+    "id": "gl124"
+  },
+  "trashësi": {
+    "word": "trashësi",
+    "definition": "Masa që tregon sa i trashë ose sa i hollë është një material.",
+    "variations": [
+      "trashësi",
+      "trashësia"
+    ],
+    "emoji": "📏📦",
+    "id": "gl125"
+  },
+  "uniformë": {
+    "word": "uniformë",
+    "definition": "Veshje e veçantë që përdoret nga njerëz të disa profesioneve.",
+    "variations": [
+      "uniformë",
+      "uniforma",
+      "uniformës"
+    ],
+    "emoji": "👕🧑‍🚒",
+    "id": "gl126"
+  },
+  "vendndërtim": {
+    "word": "vendndërtim",
+    "definition": "Vendndërtimi është vendi ku punohet për të ndërtuar një shtëpi, rrugë ose ndërtesë tjetër.",
+    "variations": [
+      "vendndërtim",
+      "vendndërtime",
+      "vendndërtimi",
+      "vendndërtimet"
+    ],
+    "emoji": "🏗️🚧",
+    "id": "gl127"
+  },
+  "veprimtari": {
+    "word": "veprimtari",
+    "definition": "Një punë ose aktivitet që bëhet për një qëllim të caktuar.",
+    "variations": [
+      "veprimtaria",
+      "veprimtarie",
+      "veprimtari të ndryshme"
+    ],
+    "emoji": "🎯🛠️",
+    "id": "gl128"
+  },
+  "veshmbathje": {
+    "word": "veshmbathje",
+    "definition": "Rroba dhe gjëra që veshim në trup.",
+    "variations": [
+      "veshmbathje",
+      "veshje"
+    ],
+    "emoji": "👕👖",
+    "id": "gl129"
+  },
+  "vetëdijesim": {
+    "word": "vetëdijesim",
+    "definition": "Të kuptosh më mirë një çështje dhe të bëhesh më i vëmendshëm ndaj saj.",
+    "variations": [
+      "vetëdijesohem",
+      "vetëdijesuar"
+    ],
+    "emoji": "💡🧠",
+    "id": "gl130"
+  },
+  "veteriner": {
+    "word": "veteriner",
+    "definition": "Mjek që kujdeset për kafshët dhe i shëron ato.",
+    "variations": [
+      "veteriner",
+      "veterineri",
+      "veterinere"
+    ],
+    "emoji": "🐶🐱🩺",
+    "id": "gl131"
+  },
+  "veti": {
+    "word": "veti",
+    "definition": "Tiparet ose cilësitë që ka një material, si fortësia, butësia ose ngjyra.",
+    "variations": [
+      "veti",
+      "vetitë"
+    ],
+    "emoji": "🔍🧠",
+    "id": "gl132"
+  },
+  "vlerë": {
+    "word": "vlerë",
+    "definition": "Rëndësia ose dobia që ka diçka.",
+    "variations": [
+      "vlerën",
+      "vlerësoj",
+      "vlerësoni"
+    ],
+    "emoji": "⭐💡",
+    "id": "gl133"
+  },
+  "zhurmë": {
+    "word": "zhurmë",
+    "definition": "Tingull i fortë ose i bezdisshëm që na shqetëson.",
+    "variations": [
+      "zhurma",
+      "zhurmës",
+      "zhurmën"
+    ],
+    "emoji": "🔊😖",
+    "id": "gl134"
+  },
+  "zjarr": {
+    "word": "zjarr",
+    "definition": "Flakë që djegin dhe mund të jenë të rrezikshme.",
+    "variations": [
+      "zjarri",
+      "zjarrit"
+    ],
+    "emoji": "🔥🚒",
+    "id": "gl135"
+  },
+  "zjarrfikës": {
+    "word": "zjarrfikës",
+    "definition": "Personi që fik zjarrin dhe ndihmon në raste rreziku.",
+    "variations": [
+      "zjarrfikësi",
+      "zjarrfikësit"
+    ],
+    "emoji": "🚒👨‍🚒",
+    "id": "gl136"
+  }
+}
