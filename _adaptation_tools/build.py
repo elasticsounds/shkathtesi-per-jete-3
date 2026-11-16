@@ -131,12 +131,51 @@ dump(ITP, it)
 
 # ---- SCORM adapter + manifest ----
 HERE = os.path.dirname(os.path.abspath(__file__))
-act_pos = [pos for pos, e in enumerate(pages, 1) if PAGES[e['section_id']]['family'].startswith('activity')]
 it_now = json.load(open(ITP))
-scorm = open(os.path.join(HERE, 'scorm_template.js')).read()
-for k, v in (('__TOTAL__', len(pages)), ('__ACTIVITIES__', act_pos), ('__NEXT__', it_now.get('next', 'Next')), ('__FIRST__', pages[0]['section_id'])):
-    scorm = scorm.replace(k, json.dumps(v, ensure_ascii=False))
-open('assets/scorm.js', 'w').write(scorm)
+
+def activity_manifest():
+    """Build-time list of activities with item counts (SCORM-TRACKING-SPEC 3.4). Mirrors readItems() in progress_template.js."""
+    out = []
+    for e in pages:
+        pg = PAGES[e['section_id']]
+        if not pg['family'].startswith('activity'):
+            continue
+        typ, html_ = pg['family'].replace('activity_', ''), pg['section']
+        m = re.search(r'window\.correctAnswers = (?:JSON\.parse\(\'(.*?)\'\)|(\{.*?\}));', pg['scripts'], re.S)
+        key = json.loads(m.group(1) or m.group(2)) if m else {}
+        fields = graded = 0
+        if typ == 'quiz':
+            fields = graded = 1
+        elif typ == 'multi_select':
+            fields = graded = len(set(re.findall(r'<input type="checkbox" name="([^"]+)"', html_)))
+        elif typ == 'true_false':
+            names = set(re.findall(r'<input type="radio" name="([^"]+)"', html_))
+            fields, graded = len(names), len([x for x in names if key.get(x)])
+        elif typ in ('fill_in_the_blank', 'fill_in_a_table', 'open_ended_answer'):
+            tags = re.findall(r'<(?:input type="text"|textarea)[^>]*>', html_)
+            fields = len(tags)
+            if typ != 'open_ended_answer':
+                graded = len([t_ for t_ in tags if key.get((re.search(r'data-activity-item="([^"]+)"', t_) or [None, ''])[1])])
+        elif typ == 'sorting':
+            fields = graded = html_.count('class="word-card')
+        elif typ == 'matching':
+            fields = graded = html_.count('class="activity-item')
+        elif typ == 'ordering':
+            fields = graded = html_.count('<li data-activity-item')
+        out.append({'id': e['section_id'], 'type': typ, 'graded': graded > 0, 'total': graded, 'fields': fields})
+    return out
+
+ACTS = activity_manifest()
+def fill(template, values):
+    src = open(os.path.join(HERE, template)).read()
+    for k, v in values.items():
+        src = src.replace(k, json.dumps(v, ensure_ascii=False))
+    return src
+open('assets/adt-progress.js', 'w').write(fill('progress_template.js', {
+    '__BUNDLE__': 'shkathtesi-per-jete-3', '__ACTIVITIES__': ACTS,
+    '__SUBMIT__': it_now.get('submit-text', 'Submit'), '__NEXT__': it_now.get('next', 'Next')}))
+open('assets/scorm.js', 'w').write(fill('scorm_template.js', {'__TOTAL__': len(pages), '__FIRST__': pages[0]['section_id']}))
+json.dump(ACTS, open(os.path.join(HERE, 'activities.json'), 'w'), ensure_ascii=False, indent=1)
 
 def package_files():
     """Everything the reader needs, relative to the bundle root (used for the manifest and the SCORM zip)."""
@@ -179,5 +218,6 @@ for e in pages:
     out['./' + e['href']] = open(e['href']).read()
 open(PL, 'w').write(src[:i] + json.dumps(out, ensure_ascii=False, separators=(',', ':')) + src[end:])
 
+print('activities', len(ACTS), 'graded', len([a for a in ACTS if a['graded']]), 'graded items', sum(a['total'] for a in ACTS))
 print('pages', len(pages), 'rebuilt', len(PAGES), 'new texts', len(NEW), 'edited texts', len(EDIT), 'manifest +', len(add))
 json.dump({'new': NEW, 'edit': EDIT}, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'text_changes.json'), 'w'), ensure_ascii=False, indent=1)

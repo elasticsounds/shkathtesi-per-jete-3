@@ -184,5 +184,6 @@
   "true-false-some-incorrect": "Disa përgjigje nuk janë të sakta.",
   "word-bank-choose-blank": "Shko te një vend bosh dhe shtyp Enter, ose prek vendin bosh.",
   "word-bank-in": "te",
-  "word-bank-blank": "vendi bosh"
+  "word-bank-blank": "vendi bosh",
+  "fitb-toast-all-correct": "Të lumtë! E përfundove këtë veprimtari."
 }
