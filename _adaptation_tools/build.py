@@ -114,11 +114,11 @@ toc_new += [
 toc = toc_new
 dump('content/toc.json', toc)
 
-# ---- sign language: one clip per page, reusing the clips in content/i18n/sq/video/ in rotation ----
+# ---- sign language: each screen uses its own clip, content/i18n/sq/video/sl_<section_id>.mp4, when one exists ----
 VID = I18N + 'video/'
-clips = sorted(f for f in os.listdir(VID) if f.endswith('.mp4')) if os.path.isdir(VID) else []
+clips = {f for f in os.listdir(VID) if f.endswith('.mp4')} if os.path.isdir(VID) else set()
 if clips:
-    dump(I18N + 'videos.json', {e['section_id']: clips[k % len(clips)] for k, e in enumerate(pages)})
+    dump(I18N + 'videos.json', {e['section_id']: f"sl_{e['section_id']}.mp4" for e in pages if f"sl_{e['section_id']}.mp4" in clips})
     cfg = json.load(open('assets/config.json'))
     cfg['features']['signLanguage'] = True
     dump('assets/config.json', cfg)
